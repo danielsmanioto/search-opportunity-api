@@ -7,3 +7,11 @@ API for centralize opportunity and integration diferents API
 <p>Sprint Boot2</p>
 <p>H2DB</p>
 <p>Maven</p>
+
+## Compile and Start
+
+`mvn clean install && mvn spring-boot:run`
+
+## Check HTTP Methods
+
+curl http://localhost:8080/companys
