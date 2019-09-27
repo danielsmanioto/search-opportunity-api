@@ -1,4 +1,4 @@
 package com.dsmanioto.searchopportunity.searchopportunityapi.model
 
-class Company(val title: String,
+data class Company(val title: String,
               val description: String)
