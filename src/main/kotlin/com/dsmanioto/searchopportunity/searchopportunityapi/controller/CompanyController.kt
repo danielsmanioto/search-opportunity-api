@@ -20,9 +20,14 @@ class CompanyController {
         return service.findAll()
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/id/{id}")
     fun findbyId(@PathVariable("id") id: Int): Company {
-        return service.findAll().stream().findAny().get();
+        return service.findById(id);
+    }
+
+    @GetMapping("/name/{name}")
+    fun findbyName(@PathVariable("name") name: String): Company {
+        return service.findByName(name)
     }
 
 }

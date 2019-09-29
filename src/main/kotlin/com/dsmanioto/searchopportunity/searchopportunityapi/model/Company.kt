@@ -1,4 +1,8 @@
 package com.dsmanioto.searchopportunity.searchopportunityapi.model
 
-data class Company(val title: String,
-              val description: String)
+import java.time.LocalDate
+
+data class Company(val id: Long,
+                   val name: String,
+                   val description: String,
+                   val dateRegister: LocalDate)
