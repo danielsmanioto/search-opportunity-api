@@ -12,6 +12,13 @@ API for centralize opportunity and integration diferents API
 
 `mvn clean install && mvn spring-boot:run`
 
+## Compile and Start USING dOCKER
+
+`mvn clean install && ./build` Use only the first time <br>
+
+`./run`
+
+
 ## Check HTTP Methods
 
 curl http://localhost:8080/companys
